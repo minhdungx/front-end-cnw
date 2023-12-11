@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    overflow: hidden;
+}
+.page-content {
+    margin: 64px 98px;
+}
+
+.search-page .search-result {
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    gap: 24px 24px;
+
+}
+
+.result-item .item-image {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 16px;
+
+}
+
+.item-image {
+    background-image: url('../../constant/image-placeholder.jpg');
+}
+
+.sub-title {
+    font-size: 20px;
+}
+
+.title:hover {
+    color: #4096ff;
+
+
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.view-btn {
+    padding: 8px 12px;
+}

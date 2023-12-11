@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.lecture-li {
+    padding-left: 10px;
+}
+
+.section-li {
+    font-size: large;
+}
+
+.section-ul {
+    overflow-y: auto;
+}
+
+.nav-col {
+    padding: 0px;
+    margin: 0px
+}
+
+
+.view-course-page {
+    overflow: hidden;
+}
+
+.video-col {
+    width: 800px;
+    height: 450px;
+}
+
+.nav-col {
+    padding: 0px 36px;
+}
+
+.heading {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.view-course-page .page-content {
+    margin-top: 135px;
+    margin-right: 0;
+}
+
+.lecture-ul {
+    border-bottom: 1px solid #ccc;
+    /* padding: 0px 36px; */
+
+}
+
+.lecture-video {
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+
+.nav-col {
+
+    height: 700px;
+    overflow-y: scroll;
+
+}
